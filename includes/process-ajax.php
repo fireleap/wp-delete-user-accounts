@@ -59,7 +59,7 @@ class WP_Delete_User_Accounts_AJAX {
 			wp_send_json( array(
 				'status' => 'success',
 				'title' => __( 'Success!', 'wp-delete-user-accounts' ),
-				'message' => __( 'Your account was successfully deleted. Fair well.', 'wp-delete-user-accounts' )
+				'message' => __( 'Your account was successfully deleted. Farewell.', 'wp-delete-user-accounts' )
 			) );
 		
 		} else {
